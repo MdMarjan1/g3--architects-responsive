@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hide{
+    display: none;
+}
+
+
+/* shared style */
+.display-flex{
+    display: flex;
+}
+
+
+/* header style */
+.header-bg{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+
+/* navbar style start */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    /* padding-top: 1rem; */
+    padding-top: 1rem;
+}
+
+
+.nav-item{
+    margin-right: 30px;
+}
+
+.navbar, .baner{
+    max-width: 1440px;
+    margin: 0 auto;
+    /* margin-bottom: 50px; */
+}
+
+.brand{
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    /* dark 01 */
+    color: rgba(19, 19, 19, 1);
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0;
+    /* adrk 02 */
+    color: rgba(66, 66, 66, 1);
+}
+/* nav style end */
+
+
+
+/* baner style start */
+.baner-content{
+    max-width: 863px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.baner-tittle{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0;
+    /* dark 01 */
+    color: rgba(19, 19, 19, 1);
+    text-align: center;
+    margin-bottom: 1.5rem;
+    
+}
+
+.baner-description{
+    font-size: 1rem;
+    font-weight: 400;
+    /* dark 03 */
+    color: rgba(114, 114, 114, 1);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.btn-primary{
+    font-size: 14px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 15px;
+    margin-bottom: 2rem;
+
+}
+
+.baner-img{
+    width: 100%;
+}
