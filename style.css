@@ -72,6 +72,10 @@
 
 
 /* baner style start */
+.baner{
+    padding-bottom: 1rem;
+    margin-bottom: 5rem;
+}
 .baner-content{
     max-width: 863px;
     margin: 0 auto;
