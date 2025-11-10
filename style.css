@@ -118,3 +118,25 @@
 .baner-img{
     width: 100%;
 }
+
+@media screen and (max-width: 576px){
+    .navbar{
+        flex-direction: column;
+    }
+
+    .brand{
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width: 768px){
+       .navbar{
+        flex-direction: column;
+     }
+
+     .brand{
+        margin-bottom: 30px;
+    }
+
+
+}
