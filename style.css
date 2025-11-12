@@ -235,6 +235,10 @@ main{
 
 
 /* facts part start */
+.facts-container{
+    margin-bottom: 10rem;
+}
+
 .facts-title{
     font-size: 2.5rem;
     font-weight: 700;
@@ -250,12 +254,37 @@ main{
     line-height: 26px;
     color:  rgba(114, 114, 114, 1);
     width: 36rem;
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
 
+}
+
+.fact-boxes{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:6rem;
 }
 
 .fact-box{
     border: 2px solid rgb(255, 144, 14);
+    width: 270px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.fact-title{
+    margin-top: 1rem;
+    /* margin-bottom: 1rem; */
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.fact-description-info{
+    margin-top: 1rem;
+    font-size: 1rem;
 }
 
 
@@ -306,6 +335,14 @@ main{
     .img-batch{
         margin: 1.5rem;
     }
+
+    /* facts section */
+    .fact-boxes{
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+ 
+        }
+
 }
 
 @media screen and (min-width:577px) and (max-width: 768px){
@@ -352,6 +389,12 @@ main{
         margin: 1.5rem;
     }
 
+        /* facts section */
+    .fact-boxes{
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+
+    }
 }
 
 @media screen and (min-width:768px) and (max-width: 1450px){
@@ -391,6 +434,15 @@ main{
     
     }
     /* card part end */
+
+    /* fact section start */
+    .fact-boxes{
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+
+    }
+
+    
     
 
 
