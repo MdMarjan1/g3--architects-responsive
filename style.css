@@ -264,6 +264,36 @@ main{
         grid-template-columns: repeat(1,1fr);
     }
 
+
+
+
+
+
+
+
+
+    /* menu section */
+    .menu-container{
+        flex-direction: column;
+    }
+
+    .menu-img{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .menu-img img{
+        width: 100%;
+    }
+
+    .img-batch{
+        margin: 1.5rem;
+    }
+
+
+
+
+
 }
 
 @media screen and (min-width:577px) and (max-width: 768px){
@@ -297,6 +327,29 @@ main{
     }
      */
 
+       /* menu section */
+    .menu-container{
+        flex-direction: column;
+        margin: 3rem;
+        
+
+    }
+
+    .menu-img{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .menu-img img{
+        width: 100%;
+    }
+
+    .img-batch{
+        margin: 1.5rem;
+    }
+
+
+
 
 }
 
@@ -310,5 +363,34 @@ main{
     .feature-container {
         flex-direction: column-reverse;
     }
+
+    /* menu section */
+    .menu-container{
+        flex-direction: column;
+        margin: 3rem;
+        
+    }
+
+    .menu-img{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .menu-img img{
+        width: 100%;
+    }
+
+    .img-batch{
+        margin: 1.5rem;
+    }
+
+    .menu-pu{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    
+    }
+    /* card part end */
+    
+
 
 }
