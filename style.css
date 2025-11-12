@@ -230,16 +230,36 @@ main{
     font-size: 2rem;
     font-weight: 400;
 }
-
 /* card part end */
 
 
 
+/* facts part start */
+.facts-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 100%;
+    color: rgba(66, 66, 66, 1);
+    margin-bottom: 1.5rem;
+
+}
+
+.facts-description{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    color:  rgba(114, 114, 114, 1);
+    width: 36rem;
+    margin-bottom: 8rem;
+
+}
 
 
 
 
 
+
+/* media query start */
 @media screen and (max-width: 576px){
     .navbar{
         flex-direction: column;
@@ -265,13 +285,6 @@ main{
     }
 
 
-
-
-
-
-
-
-
     /* menu section */
     .menu-container{
         flex-direction: column;
@@ -289,11 +302,6 @@ main{
     .img-batch{
         margin: 1.5rem;
     }
-
-
-
-
-
 }
 
 @media screen and (min-width:577px) and (max-width: 768px){
@@ -305,7 +313,6 @@ main{
         margin-bottom: 30px;
     }
 
-
      /* features section */
     .feature-container {
         flex-direction: column-reverse;
@@ -315,23 +322,16 @@ main{
         margin: 3rem;
     }
 
-
     .features-img{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         margin: 2rem;
     }
 
-    /* .features-img img{
-          width: 100%;
-    }
-     */
-
        /* menu section */
     .menu-container{
         flex-direction: column;
         margin: 3rem;
-        
 
     }
 
@@ -348,12 +348,9 @@ main{
         margin: 1.5rem;
     }
 
-
-
-
 }
 
-@media screen and (min-width:768px) and (max-width: 1200px){
+@media screen and (min-width:768px) and (max-width: 1450px){
     .features-img{
         display: grid;
         grid-template-columns: repeat(2,1fr);
